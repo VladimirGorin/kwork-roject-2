@@ -1,0 +1,126 @@
+.header{
+    height: 674px;
+    padding: 30px;
+    background-image: url("../image/background.png");
+    background-size: cover;
+    .header__body{
+        height: 100%;
+        .header__nav{
+            height: 115px;
+            .header__box-1{
+                justify-content: space-around;
+                display: flex;
+                align-items: center;
+                .header__logo{
+                    justify-content: left;
+                    width: 200px;
+                    height: 105px;
+                    img{
+                        width: 200px;
+                        height: 105px;
+                    }
+                }
+                .header__navigaton{
+                    align-items: center;
+                    display: flex;
+                    width: 700px;
+                    height: 65px;
+                    ul{
+                        display: flex;
+                        list-style-type: none;
+                        margin: 0;
+                    }
+                    li{
+                        margin: 0 20px;
+                    }
+                    a{
+                        text-decoration: none;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 23px;
+                        line-height: 26px;
+                        color: #593F0D;
+                    }
+                }
+                .header__button{
+                    justify-content: right;
+                    width: 200px;
+                    height: 65px;
+                    p{
+                        margin: 0 0 10px 0;
+                        padding: 0;
+                    }
+                    button{
+                        align-items: center;
+                        width: 180px;
+                        height: 40.41px;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 23px;
+                        /* or 192% */
+
+                        text-align: center;
+                        letter-spacing: 0.1em;
+                        text-transform: uppercase;
+                        border-radius: 5px;
+                        color: #835D13;
+                        border: none;
+                        background: linear-gradient(274.27deg, rgba(255, 255, 255, 0) -14.6%, rgba(255, 255, 255, 0.39) 39.52%, rgba(255, 255, 255, 0) 110.6%), linear-gradient(263.81deg, #FFC771 10.32%, #FFC858 98.17%);
+                        box-shadow: inset 0px 2px 15px rgba(255, 255, 255, 0.41), inset 19px 0px 25px rgba(255, 255, 255, 0.11);
+                    }
+                }
+            }
+
+        }
+        .header__body{
+            display: flex;
+            justify-content: space-around;
+            margin: 0 0 0 -133px;
+            .header__content{
+                padding: 90px 0 0 30px;
+                display: flex;
+                flex-direction: column;
+                height: 496px;
+                .header__descripton{
+                    span{
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 40px;
+                        line-height: 51px;
+                    }
+                }
+                hr{
+                    width: 100px;
+                    height: 0px;
+                    border: 3px solid #ffaa00;
+                    border-radius: 2px;
+                    margin: 15px 100px;
+    
+    
+                }
+                .header__button{
+                    button{
+                        align-items: center;
+                        width: 320px;
+                        height: 78px;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 23px;
+                        /* or 192% */
+    
+                        text-align: center;
+                        letter-spacing: 0.1em;
+                        text-transform: uppercase;
+                        border-radius: 10px;
+                        color: #835D13;
+                        border: none;
+                        background: linear-gradient(274.27deg, rgba(255, 255, 255, 0) -14.6%, rgba(255, 255, 255, 0.39) 39.52%, rgba(255, 255, 255, 0) 110.6%), linear-gradient(263.81deg, #FFC771 10.32%, #FFC858 98.17%);
+                        box-shadow: inset 0px 2px 15px rgba(255, 255, 255, 0.41), inset 19px 0px 25px rgba(255, 255, 255, 0.11);
+                    }
+                }
+            }
+        }
+    }
+}

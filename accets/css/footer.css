@@ -1,0 +1,175 @@
+.footer {
+  height: 540px;
+}
+
+.footer .footer__box-1 {
+  height: 401px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #383838;
+  padding: 60px;
+}
+
+.footer .footer__box-1 .footer__button {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  width: 200px;
+  height: 65px;
+}
+
+.footer .footer__box-1 .footer__button p {
+  margin: 0 0 30px 0;
+  padding: 0;
+  color: #FFFFFF;
+}
+
+.footer .footer__box-1 .footer__button button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 180px;
+  height: 40.41px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 23px;
+  /* or 192% */
+  border: none;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: #835D13;
+  background: linear-gradient(274.27deg, rgba(255, 255, 255, 0) -14.6%, rgba(255, 255, 255, 0.39) 39.52%, rgba(255, 255, 255, 0) 110.6%), linear-gradient(263.81deg, #FFC771 10.32%, #FFC858 98.17%);
+  -webkit-box-shadow: inset 0px 2px 15px rgba(255, 255, 255, 0.41), inset 19px 0px 25px rgba(255, 255, 255, 0.11);
+          box-shadow: inset 0px 2px 15px rgba(255, 255, 255, 0.41), inset 19px 0px 25px rgba(255, 255, 255, 0.11);
+}
+
+.footer .footer__box-1 .footer__nav {
+  height: 250px;
+  width: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer__box-1 .footer__nav .footer__navigation {
+  width: 300px;
+  height: 100%;
+}
+
+.footer .footer__box-1 .footer__nav .footer__navigation h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 26px;
+  /* identical to box height */
+  padding-left: 2rem;
+  color: #FFFFFF;
+}
+
+.footer .footer__box-1 .footer__nav .footer__navigation li {
+  color: #FFC858;
+  margin: 15px 0;
+}
+
+.footer .footer__box-1 .footer__nav .footer__navigation a {
+  text-decoration: none;
+  color: #C37827;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 107.26%;
+}
+
+.footer .footer__box-2 {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 124px;
+  background: #FFFFFF;
+}
+
+.footer .footer__box-2 .footer__logo {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  width: 135px;
+  height: 75px;
+}
+
+.footer .footer__box-2 .footer__logo img {
+  width: 135px;
+  height: 75px;
+}
+
+.footer .footer__box-2 .footer__navigaton {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 700px;
+  height: 65px;
+}
+
+.footer .footer__box-2 .footer__navigaton ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.footer .footer__box-2 .footer__navigaton li {
+  width: 100px;
+  height: 20px;
+  background: #ECECEC;
+  margin: 0 20px;
+}
+
+.footer .footer__box-2 .footer__navigaton a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 26px;
+  color: #593F0D;
+}
+
+.footer .footer__box-2 .footer__contacts {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  width: 200px;
+  height: 65px;
+}
+
+.footer .footer__box-2 .footer__contacts .footer__images {
+  margin: 0 0 25px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer__box-2 .footer__contacts .footer__images .img {
+  width: 23px;
+  height: 23px;
+}
+/*# sourceMappingURL=footer.css.map */
